@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First HTML Page</title>
+</head>
+<body>
+    <h1>Welcome to My Personal Portfolio</h1>
+    <h2> ABOUT ME</h2>
+    <p>My name is <strong>SARDAR ZOHAIB</strong></p>
+    <p>I AM CURRENTLY WORKING AS AN INTERNEE AT PROSENSIA DOING WEB DEVELOPMENT<br>
+        I AM A STUDENT OF PAK AUSTRIA FACHHOCHSCHULE INSTITUTE OF APPLIED SIENCES AND TECHNOLOGY </p>
+    <h3>SKILLS</h3>
+    <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>bug bounty</li>
+        <li>pen testing</li>
+        <li>my sql</li>
+        <li>c++</li>
+    </ul>
+    <h3>DAILY TASK</h3>
+    <ol>
+        <li>WORKING ON PROJECTS</li>
+        <li>LEARN NEW SKILLS</li>
+        <li>WATCH CODING DOCUMENTARIES</li>
+    </ol>
+    <h3>FAVOURITE WEBSITE</h3>
+    <P>here is the website i use the most for coding information</P>
+    <p><a href="https://www.w3schools.com">VISIT w3schools</a></p>
+    
+   </body>
+   <h3>HERE'S AN IMAGE I USE AS MY DESKTOP WALLPAPER </h3>
+    
+    <img src="https://www.google.com/search?sca_esv=3b07b09e3325eaa7&sca_upv=1&rlz=1C1CHBF_en-GBPK1098PK1098&sxsrf=ADLYWIIZLAHl7UavV1f9S0oBzylJUdig9w:1721647103442&q=coding&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J_86uWOeqwdnV0yaSF-x2jrrv3e_fewYh7LFIpXPaEgNQ1vZHC7aVwStfN-hyt8w93YQeezdbRIymJD7qA2kbpe9Fh9864JABjicse8VbablMojvKjXXFFob0FP4nVFoMlb_6-hv3UtT3ipYvbN7JfxWg62s&sa=X&ved=2ahUKEwiiz52gw7qHAxU-g_0HHRnoCBAQtKgLegQIDhAB&biw=1280&bih=551&dpr=1.5#vhid=EpaFXlm6sbJ-wM&vssid=mosaic" alt="coding">
+    
+    <blockquote>
+        "VINI,VIDI,VICI."
+        <cite>GREEKS</cite>
+    </blockquote>
+</body>
+</html>
