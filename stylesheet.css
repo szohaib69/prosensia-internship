@@ -1,42 +1,93 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My First HTML Page</title>
-    <link  rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-    <h1>Welcome to My Personal Portfolio</h1>
-    <h2> ABOUT ME</h2>
-    <p>My name is <strong>SARDAR ZOHAIB</strong></p>
-    <p class="information">I AM CURRENTLY WORKING AS AN INTERNEE AT PROSENSIA DOING WEB DEVELOPMENT<br>
-        I AM A STUDENT OF PAK AUSTRIA FACHHOCHSCHULE INSTITUTE OF APPLIED SIENCES AND TECHNOLOGY </p>
-    <h3>SKILLS</h3>
-    <ul>
-        <li>html</li>
-        <li>css</li>
-        <li>bug bounty</li>
-        <li>pen testing</li>
-        <li>my sql</li>
-        <li>c++</li>
-    </ul>
-    <h3>DAILY TASK</h3>
-    <ol>
-        <li>WORKING ON PROJECTS</li>
-        <li>LEARN NEW SKILLS</li>
-        <li>WATCH CODING DOCUMENTARIES</li>
-    </ol>
-    <h3>FAVOURITE WEBSITE</h3>
-    <P>Here is the website i use the most for coding information</P>
-    <p><a href="https://www.w3schools.com">VISIT w3schools</a></p>
-    
-   </body>
-   <h3>HERE'S AN IMAGE I USE AS MY DESKTOP WALLPAPER </h3>
-    
-    <img src="coding.jpeg" alt="coding">
-    
-    <blockquote>
-        "VINI,VIDI,VICI."
-        <cite>GREEKS</cite>
-    </blockquote>
-</body>
-</html>
+/* stylesheet.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #666;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #666;
+    font-size: 1.2em;
+}
+
+/* Paragraph and List Styles */
+p, ul, ol {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+/* Link Styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Blockquote Styles */
+blockquote {
+    color: #888;
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+}
+/* stylesheet.css */
+
+.information {
+    font-size: 1.1em;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.information strong {
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+/* Image Styles */
+img {
+    max-width: 100%; /* Ensures the image scales down proportionally */
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 30%; /* Reduces the maximum width of the image to 80% of its container */
+
+}
