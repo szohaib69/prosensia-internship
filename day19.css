@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+}
+
+.nav-logo span {
+    color: #e50914;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-actions {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-actions li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-login {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-signup {
+    background-color: #e50914;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.hero {
+    background-color: #692629;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 50px;
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin: 0 0 20px;
+}
+
+.hero-content h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.hero-content p {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Movie Section */
+.movies {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    gap: 10px;
+    background-color: #181818;
+}
+
+.movie-item {
+    min-width: 150px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.movie-item img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.movie-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
