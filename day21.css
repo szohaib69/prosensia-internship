@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ECE5DD;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #2C3E50;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #075E54;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.options img {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.search {
+    padding: 10px;
+    background-color: #324A5E;
+}
+
+.search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #566573;
+    color: white;
+}
+
+.chats {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.chat:hover {
+    background-color: #34495E;
+}
+
+.contact-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.chat-info h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.chat-info p {
+    font-size: 14px;
+    color: #BDC3C7;
+}
+
+.chat-area {
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #075E54;
+    color: white;
+}
+
+.messages {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ECE5DD;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 15px;
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.message.received {
+    background-color: #DCF8C6;
+    align-self: flex-start;
+}
+
+.message.sent {
+    background-color: #DCF8C6;
+    align-self: flex-end;
+}
+
+.message-input {
+    display: flex;
+    padding: 10px;
+    background-color: #F0F0F0;
+}
+
+.message-input input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.message-input button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #075E54;
+    color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
