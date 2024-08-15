@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #041337;
+    color: white;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #5430a7;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.balance-section {
+    padding: 20px 0;
+    border-bottom: 1px solid #aaa;
+}
+
+.balance h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #aaa;
+}
+
+.amount {
+    font-size: 36px;
+    margin: 10px 0;
+    line-height: 1;
+}
+
+.cents {
+    font-size: 20px;
+}
+
+.date {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+.chart-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bar {
+    width: 12px;
+    background-color: #00aaff;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.price {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+
+.time {
+    color: #aaa;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 3px;
+}
+
+.last-update {
+    color: #aaa;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.info-cards {
+    background-color: #1e3b70;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.card {
+    color: white;
+    font-size: 14px;
+}
+
+.shortcuts {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 1px solid #aaa;
+    margin-top: 20px;
+}
+
+.shortcut-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: #011c4c;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+.nav-item:hover {
+    color: #00aaff;
+}
+.nav-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
